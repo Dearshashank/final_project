@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="Validate.NavigateToHomepage">
+        <methods>
+          <include name="naviagtetohome"/>
+          <include name="remove"/>
+        </methods>
+      </class> <!-- Validate.NavigateToHomepage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="Validate.CheckOutForm">
+        <methods>
+          <include name="Validate2"/>
+        </methods>
+      </class> <!-- Validate.CheckOutForm -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

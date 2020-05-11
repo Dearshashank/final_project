@@ -1,0 +1,11 @@
+Validate\WebLogin.class
+Validate\VerifyCheckOutFunctionality.class
+Validate\Add3Remove1.class
+Validate\LockedOut.class
+Validate\CheckOut.class
+Validate\AddOrRemoveProduct.class
+Validate\DriverSetup.class
+Validate\SortingMechanism.class
+Validate\Home.class
+Validate\NavigateToHomepage.class
+Validate\CheckOutForm.class

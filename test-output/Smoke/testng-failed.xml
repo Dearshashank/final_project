@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Validate.AddOrRemoveProduct">
+        <methods>
+          <include name="RemoveProduct"/>
+          <include name="AddProduct"/>
+        </methods>
+      </class> <!-- Validate.AddOrRemoveProduct -->
+      <class name="Validate.Home">
+        <methods>
+          <include name="Header"/>
+          <include name="footer"/>
+          <include name="Hamburger"/>
+        </methods>
+      </class> <!-- Validate.Home -->
+      <class name="Validate.WebLogin">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Validate.WebLogin -->
+      <class name="Validate.CheckOut">
+        <methods>
+          <include name="CheckOut"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Validate.CheckOut -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

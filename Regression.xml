@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+	<test name="Test2">
+		<classes>
+		<class name="Validate.LockedOut"/>
+		<class name="Validate.VerifyCheckOutFunctionality"/>
+		<class name="Validate.Add3Remove1"/>
+		<class name="Validate.CheckOutForm"/>
+		<class name="Validate.NavigateToHomepage"/>
+		<class name="Validate.SortingMechanism"/>
+		</classes>
+	</test>
+</suite>

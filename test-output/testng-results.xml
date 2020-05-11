@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="71239" started-at="2020-05-11T10:38:41Z" finished-at="2020-05-11T10:39:52Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="71239" started-at="2020-05-11T10:38:41Z" finished-at="2020-05-11T10:39:52Z">
+      <class name="Validate.LockedOut">
+        <test-method status="PASS" signature="LockedOut()[pri:0, instance:Validate.LockedOut@1e88b3c]" name="LockedOut" duration-ms="9637" started-at="2020-05-11T16:08:41Z" finished-at="2020-05-11T16:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LockedOut -->
+      </class> <!-- Validate.LockedOut -->
+      <class name="Validate.NavigateToHomepage">
+        <test-method status="PASS" signature="naviagtetohome()[pri:0, instance:Validate.NavigateToHomepage@604ed9f0]" name="naviagtetohome" duration-ms="3844" started-at="2020-05-11T16:09:31Z" finished-at="2020-05-11T16:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naviagtetohome -->
+        <test-method status="PASS" signature="remove()[pri:0, instance:Validate.NavigateToHomepage@604ed9f0]" name="remove" duration-ms="952" started-at="2020-05-11T16:09:35Z" finished-at="2020-05-11T16:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+      </class> <!-- Validate.NavigateToHomepage -->
+      <class name="Validate.SortingMechanism">
+        <test-method status="PASS" signature="sort()[pri:0, instance:Validate.SortingMechanism@6a4f787b]" name="sort" duration-ms="15054" started-at="2020-05-11T16:09:36Z" finished-at="2020-05-11T16:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:Validate.SortingMechanism@6a4f787b]" name="CloseDriver" duration-ms="1081" started-at="2020-05-11T16:09:51Z" depends-on-methods="Validate.SortingMechanism.sort" finished-at="2020-05-11T16:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- Validate.SortingMechanism -->
+      <class name="Validate.Add3Remove1">
+        <test-method status="PASS" signature="Navigate()[pri:0, instance:Validate.Add3Remove1@5e3a8624]" name="Navigate" duration-ms="344" started-at="2020-05-11T16:09:15Z" finished-at="2020-05-11T16:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate -->
+        <test-method status="PASS" signature="Add3Product()[pri:0, instance:Validate.Add3Remove1@5e3a8624]" name="Add3Product" duration-ms="3823" started-at="2020-05-11T16:09:16Z" depends-on-methods="Validate.Add3Remove1.Navigate" finished-at="2020-05-11T16:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add3Product -->
+        <test-method status="PASS" signature="remove1()[pri:0, instance:Validate.Add3Remove1@5e3a8624]" name="remove1" duration-ms="1187" started-at="2020-05-11T16:09:19Z" depends-on-methods="Validate.Add3Remove1.Add3Product" finished-at="2020-05-11T16:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove1 -->
+      </class> <!-- Validate.Add3Remove1 -->
+      <class name="Validate.CheckOutForm">
+        <test-method status="PASS" signature="CheckoutBox()[pri:0, instance:Validate.CheckOutForm@91161c7]" name="CheckoutBox" duration-ms="625" started-at="2020-05-11T16:09:21Z" finished-at="2020-05-11T16:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutBox -->
+        <test-method status="PASS" signature="Validate1()[pri:0, instance:Validate.CheckOutForm@91161c7]" name="Validate1" duration-ms="1709" started-at="2020-05-11T16:09:21Z" finished-at="2020-05-11T16:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate1 -->
+        <test-method status="PASS" signature="Validate2()[pri:0, instance:Validate.CheckOutForm@91161c7]" name="Validate2" duration-ms="4976" started-at="2020-05-11T16:09:23Z" finished-at="2020-05-11T16:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate2 -->
+        <test-method status="PASS" signature="Validate3()[pri:0, instance:Validate.CheckOutForm@91161c7]" name="Validate3" duration-ms="3460" started-at="2020-05-11T16:09:28Z" finished-at="2020-05-11T16:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate3 -->
+      </class> <!-- Validate.CheckOutForm -->
+      <class name="Validate.VerifyCheckOutFunctionality">
+        <test-method status="PASS" signature="selectproduct()[pri:0, instance:Validate.VerifyCheckOutFunctionality@1bce4f0a]" name="selectproduct" duration-ms="24473" started-at="2020-05-11T16:08:51Z" finished-at="2020-05-11T16:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectproduct -->
+      </class> <!-- Validate.VerifyCheckOutFunctionality -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Regression -->
+</testng-results>
