@@ -23,7 +23,9 @@ public class DriverSetup {
 	public static String baseUrl = "https://www.saucedemo.com/";
     
 	public  static WebDriver getDriver() {
-		System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\geckodriver.exe");
+		String UptoProject = System.getProperty("user.dir");   // Upto the project path
+		String Completepath= UptoProject + "\\BrowserDrivers\\geckodriver.exe";   // upto the driver exe file
+		System.setProperty("webdriver.gecko.driver",Completepath); 
 		driver = new FirefoxDriver();
 		driver.get(baseUrl);
 		return driver;
